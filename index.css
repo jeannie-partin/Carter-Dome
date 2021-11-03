@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #d2dae2;
+    font-family: Arial, Helvetica, serif;
+    font-size: 12px;
+    position: relative;
+
+}
+
+h1 {
+    color: green;
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+p {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: .02em;
+}
+
+span:link {
+    color: black;
+}
+span:visited {
+    color: purple;
+}
+span:active {
+    color: green;
+}
+
+span:hover {
+    color: pink;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    min-height: 300px;
+    min-height: auto;
+    max-height: 500px;
+    padding-bottom: 20px;
+    
+}
+
+.stats {
+    padding-left: 20px;
+    font-size: 1.5em;
+       border-top: 5px solid green;
+    border-right: 5px solid green;
+    border-bottom: 5px solid green;
+    border-left: 5px solid green;
+    position: absolute;
+    top: 75px;
+    right: 100px;
+}
+h2 {
+    color: green;
+}
