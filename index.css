@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -9,8 +10,6 @@ body {
     background-color: #d2dae2;
     font-family: Arial, Helvetica, serif;
     font-size: 12px;
-    position: relative;
-
 }
 
 h1 {
@@ -47,20 +46,19 @@ img {
     min-height: auto;
     max-height: 500px;
     padding-bottom: 20px;
-    
 }
 
 .stats {
     padding-left: 20px;
     font-size: 1.5em;
-       border-top: 5px solid green;
+    border-top: 5px solid green;
     border-right: 5px solid green;
     border-bottom: 5px solid green;
     border-left: 5px solid green;
-    position: absolute;
-    top: 75px;
-    right: 100px;
+    float: right;
+    
 }
+
 h2 {
     color: green;
 }
